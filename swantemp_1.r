@@ -1,3 +1,5 @@
+#Contosta script from previous work. This script will serve as a template for discussion of modeling approach, but will likely not be used in its present form.
+
 #setwd("C:\\Users\\LocalUser\\Documents\\Alix\\UNH\\PhD\\HF Warming and Nitrogen\\Data\\Raw\\2006-2012 Annual Flux")
 setwd("Documents/R/annualflux")
 #resp <- read.table("Season.csv", head = TRUE, sep = ",")
