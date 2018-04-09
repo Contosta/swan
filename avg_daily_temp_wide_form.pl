@@ -3,7 +3,7 @@
 #8/4/15
 #Usage: avg_daily_temps.pl - this should be the actual name of the hourly temp file you want compiled to daily averages [input.txt] [output.txt] [errorFile.txt]
 #This file takes as input a tab-delimited text file with hourly temperature measurements from SWaN plots. Year, month, day, and time should be specified in the first four columns (with those column headings), followed by one column for each plot with the plot number as the header. The script outputs the average temperature for each day in each plot in a tab-delimited text format.
-
+#Processes hourly temperature readings to allow manual data QC, by reporting an error at incosistent values. Output data should be handchecked for accuracy.
 use strict;
 use warnings;
 
